@@ -1,0 +1,93 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: consolas;
+}
+body
+{
+    background: #1d1c1c;
+    text-align: center;
+}
+.scan
+{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.scan .qrcode
+{
+    position: relative;
+}
+.scan h3
+{
+    text-transform: uppercase;
+    font-size: 2em;
+    color: #ffffffdb;
+    letter-spacing: 2px;
+    filter: drop-shadow(0 0 20px #ffffffdb) drop-shadow(0 0 60px #ffffffdb);
+    animation: animateText 1s steps(1) infinite;
+}
+@keyframes animateText
+{
+    0%,100%
+    {
+        opacity: 0;
+    }
+    50%
+    {
+        opacity: 1;
+    }
+}
+body h1
+{
+    text-transform: uppercase;
+    font-size: 2em;
+    margin-top: 20px;
+    color: #ffffffdb;
+    letter-spacing: 2px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+}
+body h4
+{
+    font-size: 2em;
+    color: #ffffffdb;
+    letter-spacing: 2px;
+}
+body .m
+{
+    color: rgb(19, 197, 158);
+    filter: drop-shadow(0 0 20px  rgb(19, 197, 158)) drop-shadow(0 0 60px  rgb(19, 197, 158));
+    animation: animateText 1s steps(1) infinite;
+
+}
+.all
+{
+    text-align: center;
+}
+img
+{
+    height: 300px;
+    filter: drop-shadow(0 0 10px  rgb(19, 197, 158)) drop-shadow(0 0 10px  rgb(19, 197, 158))  drop-shadow(0 0 10px  rgb(19, 197, 158));
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 2%;
+}
+h5
+{
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 20PX;
+    color: rgb(19, 197, 158);
+    letter-spacing: 2px;
+    filter: drop-shadow(0 0 20px  rgb(19, 197, 158)) drop-shadow(0 0 60px  rgb(19, 197, 158));
+}
